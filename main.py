@@ -48,4 +48,6 @@ elif computer_choice == 1 and player_choice == 0:
 elif computer_choice == 1 and player_choice == 2:
   print("Congratulation, You win!")
 
+elif player_choice > 2 or player_choice < 0:
+  print("You typed an invalid number. You lose!")
 
